@@ -1,10 +1,10 @@
-import { FourElementsPage } from './app.po';
+import { PublicPage } from './app.po';
 
-describe('four-elements App', () => {
-  let page: FourElementsPage;
+describe('public App', () => {
+  let page: PublicPage;
 
   beforeEach(() => {
-    page = new FourElementsPage();
+    page = new PublicPage();
   });
 
   it('should display message saying app works', () => {
