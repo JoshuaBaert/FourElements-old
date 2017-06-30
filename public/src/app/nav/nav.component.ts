@@ -4,13 +4,19 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-nav',
   styleUrls: ['./nav.component.scss'],
   template: `
-    <div class="nav-div">
-      <div class="nav-container">
+    <div class="nav-div"><!--TODO gradient class?? -->
+      <div class="nav-top">
         <img src="/assets/FEFtranparent.png" alt="Logo" id="logo">
-        <a routerLink=""><span>HOME</span></a>
-        <a routerLink="work"><span>WORK</span></a>
+        <div class="nav-items">
+          <div class="nav-item" routerLink="">HOME</div>
+          <div class="nav-item" routerLink="work">WORK</div>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        
       </div>
     </div>
+    
     
   `
 })

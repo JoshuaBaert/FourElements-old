@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  background: #737374;
+  background: #FFFFFF;
   box-sizing: border-box;
+  margin: 0;
 }
 
 
@@ -18,6 +19,6 @@ body {
 
 @media (min-width: 1550px) {
   .landing-image {
-    padding-bottom: 950px;
+    padding-bottom: 960px;
   }
 }
