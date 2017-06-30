@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background: #737374;
+  box-sizing: border-box;
+}
+
+
+.landing-image {
+  width: 100%;
+  padding-bottom: 62%;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 1550px) {
+  .landing-image {
+    padding-bottom: 950px;
+  }
+}
