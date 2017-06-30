@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class="nav-div"><!--TODO gradient class?? -->
       <div class="nav-top">
-        <img src="/assets/FEFtranparent.png" alt="Logo" id="logo">
+        <img src="/assets/FEFtranparent.png" alt="Logo" id="logo" routerLink="">
         <div class="nav-items">
           <div class="nav-item" routerLink="">HOME</div>
           <div class="nav-item" routerLink="work">WORK</div>
@@ -16,8 +16,6 @@ import { Component, OnInit } from '@angular/core';
         
       </div>
     </div>
-    
-    
   `
 })
 export class NavComponent implements OnInit {
